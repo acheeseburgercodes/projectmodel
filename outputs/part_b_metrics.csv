@@ -1,0 +1,7 @@
+model,split,MAE,RMSE,R2
+mean_baseline,validation,15.7952,18.8552,-0.0212
+linear_regression,validation,3.9222,4.8912,0.9313
+decision_tree_depth_6,validation,5.0971,6.2796,0.8867
+random_forest,validation,4.2882,5.5095,0.9128
+gradient_boosting,validation,3.9166,4.9165,0.9306
+linear_regression,test,3.5671,4.5236,0.9493

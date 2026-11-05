@@ -1,0 +1,2 @@
+model,TN,FP,FN,TP,accuracy,precision,recall,f1
+final_model_test,127,12,11,30,0.8722,0.7143,0.7317,0.7229

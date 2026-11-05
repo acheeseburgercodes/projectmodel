@@ -1,0 +1,49 @@
+shipment_id,hub_id,segment,delay_probability,flagged,action
+SHP90001,HUB22,Watch,0.0900,0,No call
+SHP90002,HUB24,Escalate,0.7400,1,Call customer + hub manager
+SHP90003,HUB18,Escalate,0.8800,1,Call customer + hub manager
+SHP90004,HUB12,Watch,0.0000,0,No call
+SHP90005,HUB22,Watch,0.7300,1,Call customer + watch hub
+SHP90006,HUB12,Watch,0.0600,0,No call
+SHP90007,HUB09,Watch,0.5300,0,No call
+SHP90008,HUB01,Standard,0.0100,0,No call
+SHP90009,HUB09,Watch,0.0800,0,No call
+SHP90010,HUB13,Escalate,0.4700,0,No call
+SHP90011,HUB17,Escalate,0.8900,1,Call customer + hub manager
+SHP90012,HUB07,Watch,0.0400,0,No call
+SHP90013,HUB06,Standard,0.0000,0,No call
+SHP90014,HUB01,Standard,0.0000,0,No call
+SHP90015,HUB16,Watch,0.0300,0,No call
+SHP90016,HUB19,Escalate,0.1400,0,No call
+SHP90017,HUB23,Escalate,0.3300,0,No call
+SHP90018,HUB24,Escalate,0.4300,0,No call
+SHP90019,HUB16,Watch,0.0000,0,No call
+SHP90020,HUB02,Standard,0.0000,0,No call
+SHP90021,HUB19,Escalate,0.0600,0,No call
+SHP90022,HUB20,Escalate,0.0100,0,No call
+SHP90023,HUB04,Standard,0.0000,0,No call
+SHP90024,HUB15,Escalate,0.3100,0,No call
+SHP90025,HUB20,Escalate,0.6400,1,Call customer + hub manager
+SHP90026,HUB03,Standard,0.4200,0,No call
+SHP90027,HUB23,Escalate,0.2700,0,No call
+SHP90028,HUB18,Escalate,0.3000,0,No call
+SHP90029,HUB13,Escalate,0.4200,0,No call
+SHP90030,HUB17,Escalate,0.1600,0,No call
+SHP90031,HUB04,Standard,0.0000,0,No call
+SHP90032,HUB08,Standard,0.0000,0,No call
+SHP90033,HUB10,Watch,0.0000,0,No call
+SHP90034,HUB15,Escalate,0.3700,0,No call
+SHP90035,HUB08,Standard,0.2200,0,No call
+SHP90036,HUB05,Standard,0.0300,0,No call
+SHP90037,HUB07,Watch,0.3800,0,No call
+SHP90038,HUB14,Watch,0.2700,0,No call
+SHP90039,HUB06,Standard,0.0000,0,No call
+SHP90040,HUB11,Watch,0.0000,0,No call
+SHP90041,HUB21,Escalate,0.8500,1,Call customer + hub manager
+SHP90042,HUB10,Watch,0.0600,0,No call
+SHP90043,HUB05,Standard,0.0900,0,No call
+SHP90044,HUB14,Watch,0.1500,0,No call
+SHP90045,HUB03,Standard,0.0100,0,No call
+SHP90046,HUB21,Escalate,0.5300,0,No call
+SHP90047,HUB11,Watch,0.0000,0,No call
+SHP90048,HUB02,Standard,0.0100,0,No call
