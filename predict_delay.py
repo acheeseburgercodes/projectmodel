@@ -31,9 +31,13 @@ def main() -> None:
     probability = model.predict_proba(featured[feature_order])[:, 1]
     segments = pd.read_csv("outputs/hub_segments.csv")[["hub_id", "segment"]]
 
-    scored = featured[["shipment_id", "hub_id"]].merge(segments, on="hub_id", validate="many_to_one")
+    # Keep probabilities attached to their shipment before the segment join.  That
+    # avoids relying on merge row order if this batch is later scored in chunks.
+    scored = featured[["shipment_id", "hub_id"]].copy()
     scored["delay_probability"] = probability.round(4)
     scored["flagged"] = (probability >= threshold).astype(int)
+    scored = scored.merge(segments, on="hub_id", validate="many_to_one")
+    scored = scored[["shipment_id", "hub_id", "segment", "delay_probability", "flagged"]]
     scored["action"] = [action_for(flag, segment) for flag, segment in zip(scored["flagged"], scored["segment"])]
     scored.to_csv("outputs/new_shipment_actions.csv", index=False, float_format="%.4f")
 
