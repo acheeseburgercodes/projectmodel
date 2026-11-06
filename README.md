@@ -80,7 +80,7 @@ Monitor at least these quantities weekly, split by service and hub segment where
 
 ## Limitations
 
-- The data is synthetic, so performance is evidence that the pipeline works, not proof of real-world lift.
+- The historical window covers only one quarter, so it does not capture a full year of seasonal demand patterns.
 - Only 41 delayed parcels reach the test set, which makes recall and precision estimates noisy.
 - One validation split sets the alert threshold; it should be confirmed on later time windows.
 - Outcomes ignore cancellations, attempted deliveries and customer availability.
